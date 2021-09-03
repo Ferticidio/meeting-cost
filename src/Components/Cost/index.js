@@ -6,7 +6,7 @@ const Cost = () => {
   const currencyFormat = (num) =>'$' + num.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,');
 
   return (
-    <div>
+    <div className="cost column">
       <div>At an avg of $25 per hour and with one attendee this meeting cost is: </div>
       <div className='big'>
         Cost: {currencyFormat(time*secondValue)}

@@ -38,14 +38,14 @@ const Timer = () => {
   };
 
   return (
-    <div className="container">
-      <div className="time">
+    <div className="timer column">
+      <div>
         { minute !== '00' &&
             <div className="big">{minute} Minutes</div>
         }
         <div className={minute === '00' ? 'big' : 'small'}>{second} Seconds</div>
       </div>
-      <div className="buttons">
+      <div>
         <button onClick={() => setIsActive(!isActive)} className="start">
           {isActive ? "Pause": "Start"}
         </button>
