@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/meeting-cost/static/css/main.a617e044.chunk.css",
+    "main.js": "/meeting-cost/static/js/main.ba10407e.chunk.js",
+    "main.js.map": "/meeting-cost/static/js/main.ba10407e.chunk.js.map",
+    "runtime-main.js": "/meeting-cost/static/js/runtime-main.c3dc226a.js",
+    "runtime-main.js.map": "/meeting-cost/static/js/runtime-main.c3dc226a.js.map",
+    "static/js/2.d82b418d.chunk.js": "/meeting-cost/static/js/2.d82b418d.chunk.js",
+    "static/js/2.d82b418d.chunk.js.map": "/meeting-cost/static/js/2.d82b418d.chunk.js.map",
+    "static/js/3.4e93c447.chunk.js": "/meeting-cost/static/js/3.4e93c447.chunk.js",
+    "static/js/3.4e93c447.chunk.js.map": "/meeting-cost/static/js/3.4e93c447.chunk.js.map",
+    "index.html": "/meeting-cost/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/meeting-cost/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.d82b418d.chunk.js.LICENSE.txt": "/meeting-cost/static/js/2.d82b418d.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/meeting-cost/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c3dc226a.js",
+    "static/js/2.d82b418d.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.ba10407e.chunk.js"
+  ]
+}
