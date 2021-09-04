@@ -4,10 +4,13 @@ const TimeContext = createContext();
 
 const TimeContextProvider = ({ children }) => {
   const [time, setTime] = useState(0);
+  const [isActive, setIsActive] = useState(false);
 
   const timeContext = {
     time,
-    setTime
+    setTime,
+    isActive,
+    setIsActive,
   }
   return (
   <TimeContext.Provider value={timeContext}>

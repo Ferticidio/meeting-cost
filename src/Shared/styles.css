@@ -1,0 +1,15 @@
+.big {
+  font-size: 24pt;
+}
+
+.flex_1, .timer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.flex_2, .cost {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}

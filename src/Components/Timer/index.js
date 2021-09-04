@@ -1,14 +1,13 @@
 import { useState, useEffect, useContext } from 'react';
 import { TimeContext } from '../../Contexts/TimeContext';
 
-import './Timer.css';
+import './Timer.css'
 
 const Timer = () => {
   const [second, setSecond] = useState('00');
   const [minute, setMinute] = useState('00');
-  const [isActive, setIsActive] = useState(false);
 
-  const { time, setTime } = useContext(TimeContext);
+  const { time, setTime, isActive } = useContext(TimeContext);
 
   useEffect(() => {
     let intervalId;
@@ -27,29 +26,22 @@ const Timer = () => {
       }, 1000)
     }
 
+    if (!isActive && time === 0) { // Reset
+      setSecond('00');
+      setMinute('00');
+    }
     return () => clearInterval(intervalId);
   }, [isActive, setTime, time])
 
-  const reset = () => {
-    setIsActive(false);
-    setTime(0);
-    setSecond('00');
-    setMinute('00')
-  };
 
   return (
-    <div className="timer column">
+    <div className="timer">
+      <h2>Meeting duration</h2>
       <div>
         { minute !== '00' &&
-            <div className="big">{minute} Minutes</div>
+            <div>{minute} Minutes</div>
         }
-        <div className={minute === '00' ? 'big' : 'small'}>{second} Seconds</div>
-      </div>
-      <div>
-        <button onClick={() => setIsActive(!isActive)} className="start">
-          {isActive ? "Pause": "Start"}
-        </button>
-        <button onClick={reset} className="reset">Reset</button>
+        <div>{second} Seconds</div>
       </div>
    </div>
   )
