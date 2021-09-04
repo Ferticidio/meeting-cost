@@ -6,22 +6,31 @@ button {
   flex-grow: 1;
   width: 50%;
   padding: 10px;
-  border: none;
-  color: white;
+  background-color: white;
+  color: black;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  border: 2px solid; /* Green */
+  border: 2px solid;
+  transition-duration: 0.4s;
 }
 
 .reset {
+  border: 2px solid #f33326;
+}
+.reset:hover {
   background-color: #f44336;
-  border: 2px solid #f33326; /* Green */
+  color: white;
 }
 
 .start {
+
+  border: 2px solid #4BAE40;
+}
+
+.start:hover {
   background-color: #4CAF50;
-  border: 2px solid #4BAE40; /* Green */
+  color: white;
 }

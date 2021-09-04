@@ -14,7 +14,7 @@ const Attendees = () => {
   const handleAttendeesChange = (event) => setAttendees(+event.target.value);
   const handleHourSalaryChange = (event) => setHourSalary(+event.target.value);
   return (
-    <div className="flex_1">
+    <div className="flex_1 attendees">
       <h2>Set meeting attendees and hourly salary</h2>
       <div className="input_control">
         <label for="attendees">Ateendees:</label>

@@ -1,6 +1,8 @@
+.attendees {
+  padding: 10px;
+}
 .input_control {
   display: flex;
-  padding: 10px;
 }
 
 .input_control label {
