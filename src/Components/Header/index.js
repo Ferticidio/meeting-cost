@@ -2,7 +2,7 @@ import './Header.css'
 
 const Header = () => (
   <header>
-    Meeting cost calculator
+    <h1>Meeting cost calculator</h1>
   </header>
 );
 

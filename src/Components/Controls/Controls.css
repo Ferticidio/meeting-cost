@@ -6,19 +6,18 @@ button {
   flex-grow: 1;
   width: 50%;
   padding: 10px;
+  margin: 10px;
   background-color: white;
-  color: black;
   padding: 15px 32px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   border: 2px solid;
   transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .reset {
-  border: 2px solid #f33326;
+  border-color: #f33326;
 }
 .reset:hover {
   background-color: #f44336;
@@ -26,8 +25,7 @@ button {
 }
 
 .start {
-
-  border: 2px solid #4BAE40;
+  border-color: #4BAE40;
 }
 
 .start:hover {

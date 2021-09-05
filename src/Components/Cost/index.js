@@ -14,10 +14,10 @@ const Cost = () => {
   return (
     <div className="cost">
       <h1>Meeting Cost</h1>
-      <div>At an avg salary of {currencyFormat(hourSalary)} per hour and with {attendees} attendee{attendees > 1 ? 's' : ''} this meeting cost is: </div>
-      <div className="big">
+      <p>At an avg salary of {currencyFormat(hourSalary)} per hour and with {attendees} attendee{attendees > 1 ? 's' : ''} this meeting cost is: </p>
+      <p className="big">
         Cost: {currencyFormat(time*secondValue)}
-      </div>
+      </p>
       <Timer />
     </div>
   );

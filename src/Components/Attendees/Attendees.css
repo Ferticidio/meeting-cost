@@ -1,8 +1,14 @@
 .attendees {
   padding: 10px;
 }
+
+.hidden {
+  flex:0 !important;
+}
+
 .input_control {
   display: flex;
+  padding: 10px;
 }
 
 .input_control label {
@@ -16,4 +22,14 @@
   flex-direction: column;
   flex: 1;
   padding: 10px 15px;
+}
+
+.hideButton {
+  background: none!important;
+  border: none;
+  width: auto;
+  margin: 0;
+  padding: 0!important;
+  color: #069;
+  cursor: pointer;
 }
